@@ -1,9 +1,25 @@
-
+# itne rg
 
 module "rg" {
   source = "../Module/rg"
 
   resource_group_name     = "rg-newtodo"
+  resource_group_location = "central india"
+  
+}
+
+module "rg-1" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo1"
+  resource_group_location = "central india"
+  
+}
+
+module "rg-2" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo2"
   resource_group_location = "central india"
   
 }
