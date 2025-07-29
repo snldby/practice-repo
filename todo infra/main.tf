@@ -1,5 +1,5 @@
-
-
+# itne rg
+#all doneq
 module "rg" {
   source = "../Module/rg"
 
@@ -24,7 +24,6 @@ module "rg-2" {
   resource_group_location = "central india"
   
 }
-
 
 
 module "vnet" {
