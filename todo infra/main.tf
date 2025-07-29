@@ -17,6 +17,15 @@ module "rg-1" {
   
 }
 
+module "rg-2" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo2"
+  resource_group_location = "central india"
+  
+}
+
+
 
 module "vnet" {
   depends_on = [ module.rg ]
