@@ -5,7 +5,7 @@
 # village matiyahi
 # dist jaunpur
 # state UP
-#block sujanganj
+#block sujanganj1
 
 terraform {
   required_providers {
