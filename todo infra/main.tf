@@ -8,6 +8,16 @@ module "rg" {
   
 }
 
+
+module "rg-1" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo1"
+  resource_group_location = "central india"
+  
+}
+
+
 module "vnet" {
   depends_on = [ module.rg ]
   source = "../Module/vnet"
