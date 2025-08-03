@@ -9,6 +9,24 @@ module "rg" {
 }
 
 
+module "rg-3" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo3"
+  resource_group_location = "central india"
+  
+}
+
+module "rg-6" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo6"
+  resource_group_location = "central india"
+  
+}
+
+
+
 module "rg-1" {
   source = "../Module/rg"
 
@@ -16,16 +34,6 @@ module "rg-1" {
   resource_group_location = "central india"
   
 }
-
-
-module "rg-9" {
-  source = "../Module/rg"
-
-  resource_group_name     = "rg-newtodo9"
-  resource_group_location = "central india"
-  
-}
-
 
 module "rg-2" {
   source = "../Module/rg"
