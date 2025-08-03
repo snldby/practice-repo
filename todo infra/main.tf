@@ -9,10 +9,10 @@ module "rg" {
 }
 
 
-module "rg-2" {
+module "rg-3" {
   source = "../Module/rg"
 
-  resource_group_name     = "rg-newtodo2"
+  resource_group_name     = "rg-newtodo3"
   resource_group_location = "central india"
   
 }
