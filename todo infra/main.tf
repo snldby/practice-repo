@@ -17,6 +17,15 @@ module "rg-3" {
   
 }
 
+module "rg-6" {
+  source = "../Module/rg"
+
+  resource_group_name     = "rg-newtodo6"
+  resource_group_location = "central india"
+  
+}
+
+
 
 module "rg-1" {
   source = "../Module/rg"
